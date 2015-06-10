@@ -63,7 +63,7 @@ $ boot2docker up
 $ docker pull google/nodejs-runtime
 
 # Run the app locally
-$ gcloud preview app run .
+$ gcloud preview app run app.yaml
 $ curl -X GET http://localhost:8080
 
 # Deploy the app to production
